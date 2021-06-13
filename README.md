@@ -1,70 +1,60 @@
 # My PortFolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+You can visit my website [here](https://siddhant-nanda.github.io)
 
-## Available Scripts
+## You can follow these steps to create your own portfolio website
 
-In the project directory, you can run:
+### Setup the app
 
-### `yarn start`
+- Install Node
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Run `node -v and npm -v` to check if node is properly installed with latest version.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Run `npx create-react-app <app_name>` to create a bootstrap ReactJs project.
 
-### `yarn test`
+- You can go ahead and add your files and images in the project structure.
 
-Launches the test runner in the interactive watch mode.\
+- For reference, you can go through [Official Docs](https://reactjs.org/docs/getting-started.html) of ReactJs.
+
+### Explore the app
+
+- Run `yarn install` or `npm install` to install all the dependencies mentioned in *package.json* file.
+
+- Run `yarn start` or `npm start` to start the app in the development mode.
+
+- Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+- The page will reload if you make edits. You will also see any lint errors in the console.
+
+- Run `yarn test` to launch the test runner in the interactive watch mode.
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
+- Run `yarn build` to build the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Some checkpoints for portfolio website
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- The name of the repository should be in this format `<github-username>.github.io`.
 
-### `yarn eject`
+- When we add ReactJs project directly into the main or master branch of the repo,
+GitHub only works on `index.html` file for hosting GitHub pages.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- To make our React App work for portfolio website we have to use a package named `gh-pages`.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Final steps for GitHub Portfolio page - [Reference](https://www.pluralsight.com/guides/fix-create-react-app-showing-readme.md)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- If you don't use `index.html`, the webiste will always show README.md page.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Run `npm install -g gh-pages --save-dev` to install `gh-pages`.
 
-## Learn More
+- Run `gh-pages -b <branch_name> -d build` to create build for the page.
+
+*Voila!! Your page is ready and you can check your website now.*
+
+*`Portfolio Website will be https://<github-username>.github.io`*
+
+### Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
