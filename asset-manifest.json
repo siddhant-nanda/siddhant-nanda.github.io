@@ -6,14 +6,14 @@
     "runtime-main.js": "/static/js/runtime-main.9964698b.js",
     "runtime-main.js.map": "/static/js/runtime-main.9964698b.js.map",
     "static/css/2.150d169a.chunk.css": "/static/css/2.150d169a.chunk.css",
-    "static/js/2.3360fdef.chunk.js": "/static/js/2.3360fdef.chunk.js",
-    "static/js/2.3360fdef.chunk.js.map": "/static/js/2.3360fdef.chunk.js.map",
+    "static/js/2.1514f83e.chunk.js": "/static/js/2.1514f83e.chunk.js",
+    "static/js/2.1514f83e.chunk.js.map": "/static/js/2.1514f83e.chunk.js.map",
     "static/js/3.53912e15.chunk.js": "/static/js/3.53912e15.chunk.js",
     "static/js/3.53912e15.chunk.js.map": "/static/js/3.53912e15.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.150d169a.chunk.css.map": "/static/css/2.150d169a.chunk.css.map",
     "static/css/main.04dbd5f3.chunk.css.map": "/static/css/main.04dbd5f3.chunk.css.map",
-    "static/js/2.3360fdef.chunk.js.LICENSE.txt": "/static/js/2.3360fdef.chunk.js.LICENSE.txt",
+    "static/js/2.1514f83e.chunk.js.LICENSE.txt": "/static/js/2.1514f83e.chunk.js.LICENSE.txt",
     "static/media/Resume-SiddhantNanda.6bf83a6b.pdf": "/static/media/Resume-SiddhantNanda.6bf83a6b.pdf",
     "static/media/about.338630a3.png": "/static/media/about.338630a3.png",
     "static/media/style.css": "/static/media/loader.fd437b28.svg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.9964698b.js",
     "static/css/2.150d169a.chunk.css",
-    "static/js/2.3360fdef.chunk.js",
+    "static/js/2.1514f83e.chunk.js",
     "static/css/main.04dbd5f3.chunk.css",
     "static/js/main.5cc34d83.chunk.js"
   ]
