@@ -5,14 +5,14 @@ import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-import { CgGitFork } from "react-icons/cg";
 import {
-  AiFillStar,
+  AiFillGithub,
   AiOutlineHome,
   AiOutlineUser,
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
+import DarkMode from "./DarkMode";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -81,9 +81,11 @@ function NavBar() {
                 target="_blank"
                 className="fork-btn-inner"
               >
-                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-                <AiFillStar style={{ fontSize: "1.1em" }} />
+                <AiFillGithub style={{ fontSize: "1.2em" }} />
               </Button>
+            </Nav.Item>
+            <Nav.Item className="fork-btn" style={{marginLeft:"50px"}}>
+            <DarkMode></DarkMode>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>

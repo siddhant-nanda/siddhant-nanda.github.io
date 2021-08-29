@@ -25,8 +25,9 @@ function Footer() {
             <li className="social-icons">
               <a
                 href="mailto:siddhantnanda03@gmail.com"
-                style={{ color: "white" }}
+                className="social-icons-pic"
                 target="_blank"
+                rel="noreferrer"
               >
                 <AiFillMail />
               </a>
@@ -34,8 +35,9 @@ function Footer() {
             <li className="social-icons">
               <a
                 href="https://github.com/siddhant-nanda"
-                style={{ color: "white" }}
+                className="social-icons-pic"
                 target="_blank"
+                rel="noreferrer"
               >
                 <AiFillGithub />
               </a>
@@ -43,8 +45,9 @@ function Footer() {
             <li className="social-icons">
               <a
                 href="https://twitter.com/siddhant_nanda"
-                style={{ color: "white" }}
+                className="social-icons-pic"
                 target="_blank"
+                rel="noreferrer"
               >
                 <AiOutlineTwitter />
               </a>
@@ -52,8 +55,9 @@ function Footer() {
             <li className="social-icons">
               <a
                 href="https://www.linkedin.com/in/siddhant-nanda/"
-                style={{ color: "white" }}
+                className="social-icons-pic"
                 target="_blank"
+                rel="noreferrer"
               >
                 <FaLinkedinIn />
               </a>
@@ -61,8 +65,9 @@ function Footer() {
             <li className="social-icons">
               <a
                 href="https://www.instagram.com/siddhant_nanda/"
-                style={{ color: "white" }}
+                className="social-icons-pic"
                 target="_blank"
+                rel="noreferrer"
               >
                 <AiFillInstagram />
               </a>
