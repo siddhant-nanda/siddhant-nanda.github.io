@@ -1,34 +1,19 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
-import axios from "axios";
 import pdf from "../../Assets/Resume-SiddhantNanda.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
-  const uri = "https://www.codechef.com/users/sidnanda97";
-  const [codechefRating, updateCodechefRating] = useState(0);
-
-  useEffect(() => {
-    axios
-      .get(uri)
-      .then((res) => {
-        console.log(res);
-        updateCodechefRating();
-      })
-      .catch((err) => {
-        console.log(err);
-      });
-  }, []);
 
   return (
     <Container fluid className="resume-section">
       <Particle />
       <Container>
         <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button variant="primary" href={pdf} target="_blank">
+          <Button variant="primary" href={pdf} target="_blank" id="imp-text-color">
             <AiOutlineDownload />
             &nbsp;Download CV
           </Button>
@@ -38,7 +23,7 @@ function Resume() {
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
               title="Software Engineer [Turtlemint]"
-              date="Aug 2020 - Present"
+              date="Aug 2020 - Sep 2021"
               content={[
                 "Organized and prioritized work to complete assignments in a timely, efficient manner.",
                 "Developed a new product to capture consent in the real-time scenario from the customer to proceed with their purchase",
